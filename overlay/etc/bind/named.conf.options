@@ -6,4 +6,8 @@ options {
         allow-query { any; };
         allow-query-cache { any; };
         listen-on-v6 { any; };
+	forwarders {
+		208.67.220.123;
+		208.67.222.123;
+	};
 };
