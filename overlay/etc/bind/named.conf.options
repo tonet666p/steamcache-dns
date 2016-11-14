@@ -7,7 +7,7 @@ options {
         allow-query-cache { any; };
         listen-on-v6 { any; };
 	forwarders {
-		208.67.220.123;
-		208.67.222.123;
+		199.85.126.20;
+		199.85.127.20;
 	};
 };
